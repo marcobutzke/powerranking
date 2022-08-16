@@ -6,5 +6,5 @@ import altair as alt
 
 st.write('Hello!!!')
 
-data = pd.read_excel('BRA2022.xlsx')
+data = pd.read_feather('bra2022.feather')
 st.dataframe(data)
